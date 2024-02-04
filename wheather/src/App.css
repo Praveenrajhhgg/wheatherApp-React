@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;500;600;700;800&dispaly=swap")
+*{
+    font-family: "Roboto Condensed",sans-serif;
+}
+img {
+    width: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 224, 254);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q{
+    
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(8, 120, 135);
+}
+.w{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 2px solid rgba(0, 236, 253, 0.86);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.e{
+    flex:1;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+
+}
+.r{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.r img{
+    margin-top: 5px;
+}
+.y{
+    height: 20%;
+    width: 40%;
+    margin-top: 30px;
+}
+.t{
+    text-align: center;
+
+}
+.u,
+.i,
+.o{
+margin-top: 5px;
+font-size: 35px;
+text-transform: uppercase;
+text-align: center;
+text-shadow: 2px 0 rgb(0, 224, 254);
+}
+.u{
+    font-weight: 600;
+}
+.i{
+    color: rgb(255, 204, 0);
+    text-shadow:none;
+}
+.o{
+    font-size: 18px;
+    color: #554f4f;
+    text-shadow:none;
+    margin-top: 10px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.p div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p div span{
+    font-size: 15px;
+    font-weight: 550;
+}
+.p div span:nth-child(2){
+    font-weight: bold;
+    padding-top: 5px;
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.f img{
+    width: 40px;
+}
+.h{
+    text-align: center;
+    margin-top: 30px;
+}
+.h span{
+    color: #2b0f0fd4;
+    font-weight: 700;
+}
+.gone{
+    padding-left: 15px;
+}
+.jone{
+    padding-left: 8px;
+}
+.z,.x,.c{
+margin-top: 10px;
+color: rgb(54, 44, 44);
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+}
+
+
